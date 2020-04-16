@@ -33,12 +33,15 @@ class Kalman_Filter(object):
         # state predicted
         self.u = np.round(np.dot(self.F, self.u))
         # covariance predicted
+        # P= F*P*F' + Q 
         self.P = np.dot(self.F, np.dot(self.P, self.F.T)) + self.Q
         # Predicted last result
         self.lastResult = self.u  
         return self.u
 
     def update(self, b, flag):
+        # C = A*P*A'+R 
+        # K = P * A'* inv(A*P*A'+R)
         # update state vector u and covariance of uncertainty P.
         # Flag : True - update using prediction else update using detection
         # return : predicted state
