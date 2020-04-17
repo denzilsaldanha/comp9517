@@ -7,4 +7,6 @@
 
 **Running the operation**
 
-Run the "detect.py" as normal. And press "Spacebar" when the two images pops up to iterate through every photo in the file with the detection feature
+Run the "object_tracking.py" as normal. And press "Spacebar" when the images pop up to iterate through every photo in the file with the detection feature.
+
+Task 2-3 is done in people_in_box.py which can be instantiated in your respective codes.
