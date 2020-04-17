@@ -8,4 +8,4 @@
 
 * Download yolov3 weights: [YOLOv3](https://pjreddie.com/media/files/yolov3.weights)
 
-* Pedestrian Tracking: line 89 - 153 in "yolov3_keras.py". 
+* Pedestrian Tracking: line 89 - 153 in [yolov3_keras.py](https://github.com/denzilsaldanha/comp9517/blob/master/deep_sort_yolov3_yingh/yolov3_keras.py). 
