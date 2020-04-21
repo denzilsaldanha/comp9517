@@ -1,0 +1,7 @@
+,Metrics,Value
+0,number of frames,795.0
+1,number of pedestrian,4873.0
+2,number of detected pedestrian,4380.0
+3,average detection accuracy,0.9202046520914449
+4,average miss detection rate,0.09875012478786076
+5,average false detection rate,0.018954776879305177
